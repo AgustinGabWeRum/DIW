@@ -1,0 +1,16 @@
+.caja{
+    border: 1px solid black;
+    width: 350px;
+    height: 900px;
+}
+th{
+    vertical-align: top;
+}
+h1{
+    color: white;
+    background-color: #69A0F3;
+}
+h3{
+    color: white;
+    background-color: #69A0F3;
+}
