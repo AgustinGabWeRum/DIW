@@ -1,0 +1,15 @@
+hr{
+    
+    color: lightgrey;
+}
+table img{
+    float: left;
+    width: 100px;
+    height: 90px;
+}
+.numeros::first-letter{
+    font-size: 70px;
+}
+p{
+    margin-left: 290px;
+}
