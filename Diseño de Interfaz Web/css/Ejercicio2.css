@@ -1,10 +1,13 @@
 .caja{
     border: 1px solid black;
     width: 350px;
-    height: 900px;
+    height: 1100px;
+    font-family: sans-serif;
+    font-size: 15.1167px;
 }
 th{
     vertical-align: top;
+    text-align: left;
 }
 h1{
     color: white;
