@@ -5,11 +5,33 @@ hr{
 table img{
     float: left;
     width: 100px;
-    height: 90px;
+    height: 110px;
 }
 .numeros::first-letter{
-    font-size: 70px;
+    font-size: 80px;
 }
 p{
     margin-left: 290px;
+}
+.valencia img{
+    margin-right: 300px;
+}
+.juventus img{
+    margin-left: 300px;
+}
+.letravcf{
+    padding-bottom: 25px;
+}
+.letrajuve{
+    padding-bottom: 25px;
+}
+.lineaVertical{
+    margin-left: 10px;
+    border-left: 2px solid lightgrey;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+}
+.animacion:hover{
+    color: darkorange;
 }
