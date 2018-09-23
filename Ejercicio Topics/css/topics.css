@@ -1,0 +1,29 @@
+img{
+    margin-left: 600px;
+}
+h3{
+    margin-left: 605px;
+    margin-bottom: -15px;
+    color: blue;
+}
+pre{
+    margin-left: 550px;
+    line-height: 25px;
+}
+hr{
+    border:1px dotted gray;
+    width:210px;
+    margin-left: 570px;
+    margin-top: -15px;
+}
+p{
+    margin-left: 610px;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+body{
+    font-family: 'Noto Serif', serif;
+}
