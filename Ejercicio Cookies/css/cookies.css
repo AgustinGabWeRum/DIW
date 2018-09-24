@@ -1,0 +1,87 @@
+.cajaPrincipal {
+    width: 1000px;
+    height: 300px;
+    border: 1px solid lightgray;
+}
+.cajaSecundaria{
+    width: 1000px;
+    height: 80px;
+    border: 1px solid #F6EFED;
+    background-color: #F6EFED;
+}
+
+h2 {
+    color: darkblue;
+    margin-left: -620px;
+}
+hr {
+    color: lightgray;
+    inline-size: 950px;
+}
+pre {
+    line-height: 1.75em;
+    margin-left: -40px;
+    font-size: 12px;
+    color: grey;
+}
+.tabla {
+    width: 1000px;
+    margin-top: -20px;
+}
+.configuracion {
+    color: blue;
+    width: 250px;
+}
+button {
+    background-color: #59C413;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 270px;
+    font-size: 18px;
+    text-align: right;
+    margin-left: 50px;
+    cursor: pointer;
+}
+img {
+    width: 25px;
+    height: 25px;
+    margin-left: -210px;
+    margin-top: 5px;
+}
+#letraBoton{
+    margin-left: 41px;
+    margin-top: -22px;
+    color: white;
+}
+p{
+    margin-left: -800px;
+    color: blue;
+}
+sup{
+    color: gray;
+}
+#desarrollo {
+    margin-left: 500px;
+    margin-top: -30px;
+}
+#trustarc{
+    width: 80px;
+    height: 60px;
+    margin-left: 685px;
+    margin-top: -40px;
+}
+.lineaVertical{
+    margin-left: 390px;
+    margin-top: -35px;
+    border-left: 1px solid black;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+}
+#truste{
+    width: 90px;
+    height: 15px;
+    margin-left: 900px;
+    margin-top: -33px;
+}
