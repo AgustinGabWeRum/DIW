@@ -1,0 +1,26 @@
+.tabla{
+    width: 950px;
+    height: 100px;
+    background-color: #F7F4F4;
+}
+table img{
+    width: 60px;
+    height: 60px;;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+span{
+    color: blue;
+}
+pre{
+    margin-top: -50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.twitter{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
