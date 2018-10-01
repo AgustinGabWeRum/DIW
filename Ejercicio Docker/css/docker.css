@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cajaPrincipal{
     width: 70%;
@@ -15,7 +15,7 @@ img{
     margin-top: 20px;
 }
 .titulo{
-    color: blue;
+    color: #34A9E5;
     font-size: 20px;
     padding-left: 130px;
     margin-top: -70px;
@@ -25,7 +25,7 @@ table{
     font-size: 12px;
 }
 span{
-    color: blue;
+    color: #4AB8F0;
 }
 table td img{
     width: 20px;
@@ -40,9 +40,10 @@ table td img{
     margin-left: 150px;
 }
 .mensajeEtiqueta{
-    font-size: 11px;
+    font-size: 10px;
     padding-left: 160px;
     margin-top: -25px;
+    color: #71777C; 
 }
 .textoPrincipal{
     width: 85%;
@@ -52,7 +53,8 @@ table td img{
 p{
     line-height: 2em;
     margin-left: 20px;
-    font-size: 15px; 
+    font-size: 13.5px;
+    color: #71777C; 
 }
 .reading{
     padding-left: 70%;
