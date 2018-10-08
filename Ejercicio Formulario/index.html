@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Ejercicio01</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    </head>
+    <body>
+        
+        <div class="cajaPrincipal">
+            <center>
+            <form>
+                <div class="elemento">
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" autofocus="true" placeholder="sucorreo@correo.org"  />
+                    <br />
+                    <br />
+                </div>
+                <div class="elemento">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" autofocus="true" minlength="8" pattern="[0-9A-Za-z]{8,}" placeholder="**************"  />
+                    <br />
+                    <br />
+                </div>
+                <div class="elemento">
+                    <label for="description">Descripción</label>
+                    <textarea id="descripcion" autofocus="true" pattern="[a-zA-Z0-9}{4,255}" placeholder="Cuéntame algo"></textarea>
+                    <br />
+                    <br />
+                </div>
+                <div class="button">
+                    <button type="submit">Envia tu mensaje</button>
+                </div>
+
+
+            </form>
+            </center>
+        </div>
+    </body>
+</html>   

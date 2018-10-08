@@ -1,0 +1,32 @@
+.cajaPrincipal{
+    height: 450px;
+    width: 750px;
+    border: 1px solid black;
+    margin-left: 350px; 
+}
+form{
+    padding-top: 100px;
+}
+.elemento{
+    margin: .4em 0;
+}
+.elemento label {
+    width: 25%;
+    float: left;
+}
+.elemento textarea {
+    width: 32%;
+    float: center;
+    border: 1px dotted #999;
+    border-radius: 0;
+    -webkit-appearance: none; 
+}
+.button{
+    padding-left: 270px;
+}
+input:hover,
+input:focus {
+  outline   : none;
+  background: red;
+  color   : #FFF;
+}
