@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Bootstrap</title>
         <link rel="stylesheet" type="text/css" media="screen" href="css/estilo.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -9,7 +10,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
 
     </head>
     <body>
@@ -17,46 +18,46 @@
         <div class="cajaPrincipal">
             
             <center><h3>COMUNICACIÓ DE MESURES CORRECTORES</h3></center>
-            <form>
+            <form onsubmit="return onSubmit(this)">
                 <div class="fila1">
                     <label for="nombre">ALUMNE/A</label>
-                    <input id="nombre" autofocus="true" placeholder="Agustín"  />
+                    <input id="nombre" name="nombre" autofocus="true" placeholder="Agustín"  />
                     <br />
                     <br />
                 </div>
                 <div class="fila2">
                     <label for="grup">GRUP</label>
-                    <input id="grup" autofocus="true" placeholder="2DAW"  />
+                    <input id="grup" name="grup" autofocus="true" placeholder="2DAW"  />
                     <br />
                     <br />
                 </div>
                 <div class="fila1">
                     <label for="profesor">PROFESSOR/A</label>
-                    <input id="profesor" autofocus="true" placeholder="Angel Berlanas"  />
+                    <input id="profesor" name="professor" autofocus="true" placeholder="Angel Berlanas"  />
                     <br />
                     <br />
                 </div>
                 <div class="fila2">
                     <label for="atencio">Horari d'atenció</label>
-                    <input id="atencio" autofocus="true" placeholder=""  />
+                    <input id="atencio" name="atencio" autofocus="true" placeholder=""  />
                     <br />
                     <br />
                 </div>
                 <div class="fila1">
                     <label for="incident">Data de l'incident</label>
-                    <input id="incident" autofocus="true" placeholder="DD/MM/AA"  />
+                    <input id="incident" name="incident" type="date" autofocus="true" placeholder="DD/MM/AA"  />
                     <br />
                     <br />
                 </div>
                 <div class="fila2">
                     <label for="horari">Horari</label>
-                    <input id="horari" autofocus="true" placeholder="HH/MM/SS"  />
+                    <input id="horari" name="horari" type="time" autofocus="true" placeholder="HH/MM/SS"  />
                     <br />
                     <br />
                 </div>
                 <div class="fila1">
                     <label for="lloc">Lloc</label>
-                    <input id="lloc" autofocus="true" placeholder=""  />
+                    <input id="lloc" name="lloc" autofocus="true" placeholder=""  />
                     <br />
                     <br />
                 </div>
@@ -68,22 +69,22 @@
 
                 <div class="opciones">
    
-                <p><input type="checkbox" id="cbox1">a) compareixença davant el cap d'estudis/director</p>
+                <p><input type="checkbox" name="cbox1" id="cbox1">a) compareixença davant el cap d'estudis/director</p>
 
-                <p><input type="checkbox" id="cbox2">b) retirada d'aparells electrònics</p>
+                <p><input type="checkbox" name="cbox2" id="cbox2">b) retirada d'aparells electrònics</p>
 
-                <p><input type="checkbox" id="cbox3">c) privació del temps de recreació els dies <input type="text" /></p>
+                <p><input type="checkbox" name="cbox3" id="cbox3">c) privació del temps de recreació els dies <input name="recreació"type="text" /></p>
 
-                <p><input type="checkbox" id="cbox4">d) realització de les següents tasques educadores: </p> 
-                <input class="checkbox" type="text" /></p>
+                <p><input type="checkbox" name="cbox4" id="cbox4">d) realització de les següents tasques educadores: </p> 
+                <input name="tasques" class="checkbox" type="text" /></p>
                 
-                <p>els dies: <input type="date" placeholder="dd/mm/aa" /> i amb l'horari: <input type="time" placeholder="hh/mm/ss" /></p>
+                <p>els dies: <input name="dias" type="date" placeholder="dd/mm/aa" /> i amb l'horari: <input name="horas" type="time" placeholder="hh/mm/ss" /></p>
                 
-                <p><input type="checkbox" id="cbox5">e) suspensió del dret a participar en activitats extraescolars i complementàries des de <input type="date"> fins a <input type="date"></p>
+                <p><input name="cbox5" type="checkbox" id="cbox5">e) suspensió del dret a participar en activitats extraescolars i complementàries des de <input name="dias2" type="date"> fins a <input name="dias3" type="date"></p>
                 
                     
-                <p><input type="checkbox" id="cbox6">f) suspensió del dret de l'assistència de les clases de  <input type="text" placeholder="Castellano"/></p>
-                <p>els dies <input type="date"> fins a <input type="time"></p>
+                <p><input name="cbox6" type="checkbox" id="cbox6">f) suspensió del dret de l'assistència de les clases de  <input name="clase" type="text" placeholder="Castellano"/></p>
+                <p>els dies <input name="dias4" type="date"> fins a <input name="horas2" type="time"></p>
                 
                     
 
@@ -91,7 +92,13 @@
 
                 <p>Tipificació de l'incident segons l'article 35:</p>
                 <textarea rows="3" cols="70"></textarea>
+                <br />
+                <br />
+                <br />
+                <input class="boton" type="submit" value="Enviar Formulario">
+
                 </div>
+                
                 </center>
 
             </form>
