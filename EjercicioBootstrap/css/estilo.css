@@ -1,6 +1,6 @@
 .cajaPrincipal{
     border: 1px solid black;
-    height: 800px;
+    height: 1300px;
 }
 .cajaPrincipal h3{
     margin-top: 20px;
@@ -31,4 +31,13 @@ input:focus {
     float: left;
     margin-left: 810px;
     margin-top: -65px;
+}
+.opciones{
+    width: 43%;
+    height: 40%;
+    text-align: left;
+}
+.opciones .checkbox{
+
+    width: 85%;
 }
