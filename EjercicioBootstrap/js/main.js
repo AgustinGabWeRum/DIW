@@ -17,6 +17,26 @@ window.onload = function(){
   document.getElementById('dias').value=ano+"-"+mes+"-"+dia;
   document.getElementById('horas').value=ano+"-"+mes+"-"+dia;
   document.getElementById('dias2').value=ano+"-"+mes+"-"+dia;
-  document.getElementById('dias3').value=ano+"-"+mes+"-"+dia;
   document.getElementById('dias4').value=ano+"-"+mes+"-"+dia;
+}
+$(document).ready(function(){
+
+  $("input[type=radio]").click(function(event){
+    var valor = $(event.target).val();
+    if(valor == "buttonLeve"){
+      $("#leve").show();
+      $("#grave").hide();
+    }else if ( valor == "buttonGrave"){
+      $("#leve").hide();
+      $("#Faltagrave").show();
+    }
+    else{
+
+    }
+  })
+})
+
+function marcarLeve(){
+
+  document.getElementById("radioLeve").checked = 1;
 }

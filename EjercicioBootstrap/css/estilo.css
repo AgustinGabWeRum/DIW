@@ -30,13 +30,13 @@ input:focus {
     margin-left: 810px;
     margin-top: -65px;
 }
-.opciones{
-    width: 43%;
+.leve{
+    width: 80%;
     height: 40%;
     margin-left: 17%;
     text-align: left;
 }
-.opciones .checkbox{
+.leve .checkbox{
 
     width: 85%;
 }
@@ -57,4 +57,9 @@ img {
 }
 .radioButton{
     margin-left: 17%;
+}
+#Faltagrave{
+    display: none;
+    margin-left: 17%;
+    text-align: left;
 }

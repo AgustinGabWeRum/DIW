@@ -13,7 +13,7 @@
         <script src="js/main.js"></script>
 
     </head>
-    <body>
+    <body onload="marcarLeve()">
     
         <div class="cajaPrincipal">
             
@@ -65,21 +65,22 @@
                     <br />
                 </div>
     
-                <p class="descripcio">Descripció de l'incident: <br /> <br /> <textarea rows="10" cols="112" placeholder="Escribe aquí su mensaje..."></textarea></p>
+                <p class="descripcio">Descripció de l'incident: <br /> <br /> <textarea name="descripcio" rows="6" cols="100" placeholder="Escribe aquí su mensaje..."></textarea></p>
 
                 
                 <br />
 
                 <p class="descripcio">Seleccione el tipus d'amonestació:</p>
-                <input class="radioButton" type="radio" name="radio" checked="true">Leve
-                <input  type="radio" name="radio">Grave 
+                <input class="radioButton" id="radioLeve" value="buttonLeve" type="radio" name="radio" checked="true" >Leve
+                <input  type="radio" id="radioGrave" value="buttonGrave" name="radio" >Grave 
 
                 <br />
                 <br />
-                <center><p>En aplicació de l'article 37 del decret 39/08 sobre drets i deures, es comunica al pare/mare de l'alumne la imposició de la següent mesura correctora: </p></center>
+                
+                <div class="leve" id="leve">
+                    
+                <p>En aplicació de l'article 37 del decret 39/08 sobre drets i deures, es comunica al pare/mare de l'alumne la imposició de la següent mesura correctora: </p>
 
-                <div class="opciones">
-   
                 <p><input type="checkbox" name="cbox1" id="cbox1"> a) compareixença davant el cap d'estudis/director</p>
 
                 <p><input type="checkbox" name="cbox2" id="cbox2"> b) retirada d'aparells electrònics</p>
@@ -111,22 +112,29 @@
                 
                 <p>els dies: <input name="dias" id="dias" type="date" placeholder="dd/mm/aa" value="" /> i amb l'horari: <input name="horas" id="horas" type="time" placeholder="hh/mm/ss" value="" /></p>
                 
-                <p><input name="cbox5" type="checkbox" id="cbox5"> e) suspensió del dret a participar en activitats extraescolars i complementàries des de <input name="dias2" type="date" id="dias2" value=""> fins a <input name="dias3" type="date" id="dias3" value=""></p>
+                <p><input name="cbox5" type="checkbox" id="cbox5"> e) suspensió del dret a participar en activitats extraescolars i complementàries des de <input name="dias2" type="date" id="dias2" value=""> fins a <input name="dias3" type="date" value=""></p>
                 
                     
                 <p><input name="cbox6" type="checkbox" id="cbox6"> f) suspensió del dret de l'assistència de les clases de  <input name="clase" type="text" placeholder="Castellano"/></p>
-                <p>els dies <input name="dias4" id="dias4" type="date" value=""> fins a <input name="horas2" type="time"></p>
+                <p>els dies <input name="dias4" id="dias4" type="date" value=""> fins a <input name="horas2" type="date"></p>
                 
 
-                <p>Tipificació de l'incident segons l'article 42:</p>
+                <p>Tipificació de l'incident segons l'article 35:</p>
                 <textarea rows="3" cols="70"></textarea>
                 <br />
                 <br />
+
                 <input class="boton" type="submit" value="Enviar Formulario">
 
                 </div>
-                
-
+                <div id="Faltagrave">
+                    <p>Tipificació de l'incident segons l'article 42:</p>
+                    <textarea rows="3" cols="70"></textarea>
+                    <br />
+                    <br />
+                    <input class="boton" type="submit" value="Enviar Formulario">
+                </div>
+            
             </form>
             
         </div>
