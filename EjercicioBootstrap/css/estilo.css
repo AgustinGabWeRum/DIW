@@ -63,3 +63,30 @@ img {
     margin-left: 17%;
     text-align: left;
 }
+#TipifacioGrave{
+    overflow: auto;
+    width: 800px;
+    max-height: 300px;
+}
+#TipificacioLeve{
+    overflow: auto;
+    width: 800px;
+    max-height: 300px;
+}
+#botonGrave{
+    display: none;
+    margin-left: 17%;
+    cursor: pointer;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+#boton{
+    cursor: pointer;
+}

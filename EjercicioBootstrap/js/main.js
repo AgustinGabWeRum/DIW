@@ -26,9 +26,12 @@ $(document).ready(function(){
     if(valor == "buttonLeve"){
       $("#leve").show();
       $("#grave").hide();
+      $("#Faltagrave").hide();
+      $("#botonGrave").hide();
     }else if ( valor == "buttonGrave"){
       $("#leve").hide();
       $("#Faltagrave").show();
+      $("#botonGrave").show();
     }
     else{
 
