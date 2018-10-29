@@ -71,8 +71,8 @@
                 <br />
 
                 <p class="descripcio">Seleccione el tipus d'amonestació:</p>
-                <input class="radioButton" id="radioLeve" value="buttonLeve" type="radio" name="radio" checked="true" >Leve
-                <input  type="radio" id="radioGrave" value="buttonGrave" name="radio" >Grave 
+                <input class="radioButton" id="radioLeve" value="buttonLeve" type="radio" name="radioButton" checked="true" >Leve
+                <input  type="radio" id="radioGrave" value="buttonGrave" name="radioButton" >Grave 
 
                 <br />
                 <br />
@@ -119,7 +119,7 @@
                 <p>els dies <input name="dias4" id="dias4" type="date" value=""> fins a <input name="horas2" type="date"></p>
                 
                 <p><b>Tipificació de l'incident segons l'article 35:</b></p><br>
-                <div id="TipificacioLeve">
+                <div class="Tipificacio">
 
                 <input type="checkbox" name="aLeve"> a) Les faltes de puntualitat injustificades<br>
                 <hr><br>
@@ -167,40 +167,40 @@
                 <div id="Faltagrave">
                     <p><b>Tipificació de l'incident segons l'article 42:</b></p>
                     
-                    <div id="TipificacioGrave">
+                    <div class="Tipificacio">
 
                             <input type="checkbox" name="aGrave"> a) Els actes greus d'indisciplina i les injúries i ofenses contra membres de la comunitat educativa que sobrepassen la incorrecció o la desconsideració previstes en el article 35<br>
                             <hr><br>
-                            <input type="checkbox" name="bGrave"> b) L'agressió física o moral, les amenaces o coaccions i la discriminació greu a qualsevol<br>
+                            <input type="checkbox" name="bGrave"> b) L'agressió física o moral, les amenaces o coaccions i la discriminació greu a qualsevol membre de la comunitat educativa, així com la falta de respecte greu a la integritat i dignitat personal<br>
                             <hr><br>
-                            <input type="checkbox" name="cGrave"> c) Els actes que alteren el normal desenvolupament de les activitats del centre ducatiu, especialment els que alteren el normal desenvolupament de les classes<br>
+                            <input type="checkbox" name="cGrave"> c) Les vexacions i humillacions a qualsevol membre de la comunitat escolar, particularment si tenen un comportament sexista o xenòfon, així com les que es realitzen contra els membres més vulnerables per les seues característiques personals, socials o educatives<br>
                             <hr><br>
-                            <input type="checkbox" name="dGrave"> d) Els actes d'indisciplina<br>
+                            <input type="checkbox" name="dGrave"> d) L'assetjament escolar <br>
                             <hr><br>
-                            <input type="checkbox" name="eGrave"> e) Els actes d'incorrecció o desconsideració, les injúries i les ofenses contra els membres de la comunitat educativa<br>
+                            <input type="checkbox" name="eGrave"> e) La suplantació de personalitat en actes de la vida docent<br>
                             <hr><br>
-                            <input type="checkbox" name="fGrave"> f) El furt o deteriorament intencionat d'inmobles, materials, documentació o recursos del centre<br>
+                            <input type="checkbox" name="fGrave"> f) La falsificació, el deteriorament o la sustracció de documentació acadèmica<br>
                             <hr><br>
-                            <input type="checkbox" name="gGrave"> g) El furt o deteriorament intencionat dels béns o materials dels membres de la comunitat educativa<br>
+                            <input name="gGrave" type="checkbox"> g) Els danys greus causats en els locals, materials o documents del centre o ens els béns dels membres de la comunitat educativa<br>
                             <hr><br>
-                            <input type="checkbox" name="hGrave"> h) Les acciones que puguen ser perjudicials per a la integritat i la salut dels membres de la comunitat educativa<br>
+                            <input name="hGrave" type="checkbox"> h) Els actes injustificats que pertorben greument el normal desenvolupament de les activitats del centre<br>
+                            <hr><br> 
+                            <input name="iGrave" type="checkbox"> i) Les actuacions que puguen perjudicar perjudiquen greument la salut i la integritat personal dels membres de la comunitat educativa<br>
                             <hr><br>
-                            <input type="checkbox" name="iGrave"> i) La negativa sistemàtica a portar el material necessari per al desenvolupament del procés d'ensenyament-aprenentatge<br>
+                            <input name="jGrave" type="checkbox"> j) La introducció en el centre d'objectes perillosos o substàncies perjudicials per a la salut i la integritat personal dels membres de la comunitat educativa<br>
                             <hr><br>
-                            <input type="checkbox" name="jGrave"> j) La negativa a traslladar la informació facilitada als pares, mares, tutors o tutores per part del centre i viceversa<br>
+                            <input name="kGrave" type="checkbox"> k) Les conductes tipificades com a contràries a les normes de a les normes de convivència del centre educatiu si concorren cirscumtancies de col·lectivitat o publicitat intencionada per qualsevol mitjà<br>
                             <hr><br>
-                            <input type="checkbox" name="kGrave"> k) L'alteració o manipulació de la documentació facilitada als pares, mares, tutors o tutores per part del centre<br>
+                            <input name="lGrave" type="checkbox"> l) La incitació o l'estimul a cometre una falta que afecte greument la convivència en el centre<br>
                             <hr><br>
-                            <input type="checkbox" name="lGrave"> l) La suplantació de la personalitat dels membres de la comunitat escolar<br>
+                            <input name="mGrave" type="checkbox"> m) La negativa retirada al compliment de les mesures educatives correctores adoptades davant de conductes contràries a les normes de convivència<br>
                             <hr><br>
-                            <input type="checkbox" name="mGrave"> m) La utilizació inadequada de les tecnologies de la informació i comunicació durant les activitats que es realitzen en el centre educatiu<br>
+                            <input name="nGrave" type="checkbox"> n) La negativa reiterada el compliment de les mesures disciplináries adoptades davant de faltes que afecten greument a la convivència en el centre<br>
                             <hr><br>
-                            <input type="checkbox" name="nGrave"> n) L'ús de telèfons mòbils, aparells de so i altres aparells electrònics aliens al procés d'ensenyament-aprenentatge. Durant les activitats que es realitzen en el centre educatiu<br>
+                            <input name="oGrave" type="checkbox"> o) L'accés indegut o sense autorització a fitxers i servidors del centre<br>
                             <hr><br>
-                            <input type="checkbox" name="oGrave"> o) Els actes que dificulten o impedisquen el dret i el deure de l'estudi del seus companys i companyes<br>
-                            <hr><br>
-                            <input type="checkbox" name="pGrave"> p) La incitació o estímul a cometre una falta contrària a les normes de convivència<br>
-
+                            <input name="pGrave" type="checkbox"> p) Actes atemptatoris respecte al projecte educatiu, així com el caràcter propi del centre<br>
+                            <br>
                     </div>
                 </div>
                 <input id="botonGrave" type="submit" value="Enviar Formulario">
