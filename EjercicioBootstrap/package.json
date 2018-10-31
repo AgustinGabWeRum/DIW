@@ -1,0 +1,14 @@
+{
+  "name": "ejercicioformulario",
+  "version": "1.0.0",
+  "description": "formulario donde se reflejan los partes de los alumnos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Gabriel Weiske Rumbo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
