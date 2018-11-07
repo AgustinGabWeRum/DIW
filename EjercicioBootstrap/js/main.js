@@ -43,3 +43,20 @@ function marcarLeve(){
 
   document.getElementById("radioLeve").checked = 1;
 }
+
+function radioButtonLeve(){
+
+  if(document.getElementById('radioLeve').checked){
+    document.getElementById('radioGrave').checked=0;
+    document.getElementById('radioLeve').name ="leve";
+
+}
+
+}
+function radioButtonGrave(){
+if(document.getElementById('radioGrave').checked){
+  document.getElementById('radioLeve').checked=0;
+  document.getElementById('radioGrave').name ="grave";
+
+}
+}

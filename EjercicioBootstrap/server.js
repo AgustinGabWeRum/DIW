@@ -39,12 +39,6 @@ app.get('/',(req,res)=>{
 require('./app/routes/partes.routes.js')(app);
 
 
-
-
-
-
-
-
 // Escuchemos en un puerto
 
 app.listen(3000,() => {
