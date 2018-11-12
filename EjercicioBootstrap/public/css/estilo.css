@@ -1,0 +1,87 @@
+.cajaPrincipal{
+    height: 1400px;
+}
+.cajaPrincipal h3{
+    margin-top: 20px;
+}
+form{
+    padding-top: 80px;
+}
+.fila1 input{
+    margin-left: -200px;
+}
+.fila1 label {
+    width: 25%;
+    float: left;
+    margin-left: 17%;
+}
+input:hover,
+input:focus {
+  outline   : none;
+  color   : black;
+}
+.fila2 input{
+    margin-left: 950px;
+    margin-top: -85px;
+}
+.fila2 label {
+    width: 25%;
+    float: left;
+    margin-left: 810px;
+    margin-top: -65px;
+}
+.leve{
+    width: 80%;
+    height: 40%;
+    margin-left: 17%;
+    text-align: left;
+}
+.leve .checkbox{
+
+    width: 85%;
+}
+.descripcio{
+    margin-left: 17%;
+}
+img {
+    width: 12%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+#lasenia{
+    width: 15%;
+    height: 10%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.radioButton{
+    margin-left: 17%;
+}
+#Faltagrave{
+    display: none;
+    margin-left: 17%;
+    text-align: left;
+}
+.Tipificacio{
+    overflow: auto;
+    width: 800px;
+    max-height: 300px;
+}
+#botonGrave{
+    display: none;
+    margin-left: 17%;
+    cursor: pointer;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+#boton{
+    cursor: pointer;
+}
