@@ -7,6 +7,12 @@ module.exports = (app) => {
     // Retrieve all investigadores
     app.get('/partes', partes.findAll);
 
+    // Busca los partes leves
+    app.get('/partes/faltasLeves', partes.findLeve);
+
+    // Busca los partes graves 
+    app.get('/partes/faltasGraves', partes.findGrave);
+
     // Retrieve a single investigadores with investigadorId
     app.get('/partes/:partesId', partes.findOne);
 

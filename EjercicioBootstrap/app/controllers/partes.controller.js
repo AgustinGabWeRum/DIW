@@ -88,6 +88,30 @@ exports.findAll = (req,res) => {
 
 };
 
+exports.findLeve = (req,res) => {
+
+    Partes.find({leve:"leve"}).then(parteses=>{
+        res.send(parteses);
+    }).catch(err=>{
+        res.status(500).send({
+            message: err.message || " Algo fue mal mientras los capturabamos a todos"
+        });
+    });
+
+};
+
+exports.findGrave = (req,res) => {
+
+    Partes.find({grave:"grave"}).then(parteses=>{
+        res.send(parteses);
+    }).catch(err=>{
+        res.status(500).send({
+            message: err.message || " Algo fue mal mientras los capturabamos a todos"
+        });
+    });
+
+};
+
 
 // Obtener un partes por Id
 exports.findOne = (req,res) => {
