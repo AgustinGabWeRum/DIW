@@ -1,10 +1,12 @@
 $.getJSON( "http://localhost:3000/partes", function( data ) {
   var items = [];
     $.each( data, function( key, val ) {
-	console.log(key);
-    items.push( "<li id='" + key + "' class='list-group-item'>" + val.nom + "</li>" );
-  });
- 
+  console.log(key);
+  
+  if( val.leve == "leve"){
+    items.push( "<li id='" + key + "' class='list-group-item'><a href='partes/"+val._id+"' >" + val.nom + "</a></li>" );
+  }});
+  
   $( "<ul/>", {
     "class": "list-group",
     html: items.join( "" )
