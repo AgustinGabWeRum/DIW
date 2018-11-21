@@ -65,7 +65,7 @@ exports.create = (req,res)=>{
     })
 
     partes.save().then(data =>{
-        res.send(data);
+        res.redirect("menu.html");
     }).catch(err => {
         res.status(500).send({
             message: err.message|| "Something was wrong creating partes"

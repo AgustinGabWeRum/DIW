@@ -10,7 +10,7 @@ $.getJSON( "http://localhost:3000/partes/"+AuxID, function( data ) {
 
     if( key == "leve"){
       leve = val;
-    }else{
+    }if( key == "grave"){
       grave = val;
     }
   });
@@ -22,12 +22,13 @@ $.getJSON( "http://localhost:3000/partes/"+AuxID, function( data ) {
 });
 
 function eliminar(){
-  alert("ye");
+
     $.ajax({
       type: "DELETE",
       url: "http://localhost:3000/partes/"+AuxID,
       data: ""
     });
+    cambiarPag();
 }
 
 function cambiarPag(){
