@@ -16,6 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/menuIndex.css">
 
 </head>
 
@@ -23,13 +24,21 @@
 
     <div class="cajaPrincipal">
 
+        <ul id="menu">
+            <li><a href="http://localhost:3000/menu.html">Inicio</a></li>
+            <li><a href="http://localhost:3000/index.html">Crear Incidencia</a></li>
+            <li><a href="http://localhost:3000/listarLeve.html">Incidencias Leves</a></li>
+            <li><a href="http://localhost:3000/listarGrave.html">Incidencias Graves</a></li>
+        </ul>
+        <br>
+        <br>
         <img src="img/logoGeneralitat.png">
         <img id="lasenia" src="img/lasenia.png">
 
         <center>
             <h3>COMUNICACIÓ DE MESURES CORRECTORES</h3>
         </center>
-        <form  method="POST" action="http://localhost:3000/partes">
+        <form method="POST" action="http://localhost:3000/partes">
             <div class="fila1">
                 <label for="nombre">ALUMNE/A</label>
                 <input id="nombre" name="nom" autofocus="true" placeholder="Agustín" />
@@ -81,7 +90,7 @@
 
             <p class="descripcio">Seleccione el tipus d'amonestació:</p>
             <input type="radio" class="radioButton" value="leve" id="radioLeve" name="leve" onclick="radioButtonLeve()">Leve
-            <input type="radio" id="radioGrave"  value="grave" name="leve" onclick="radioButtonGrave()">Grave
+            <input type="radio" id="radioGrave" value="grave" name="leve" onclick="radioButtonGrave()">Grave
 
             <br />
             <br />

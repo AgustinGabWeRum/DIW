@@ -14,21 +14,33 @@
     crossorigin="anonymous"></script>
 
   <script src="detalles.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/menuPartes.css">
+  
 </head>
 
 <body>
+
+  <ul id="menu">
+    <li><a href="http://localhost:3000/menu.html">Inicio</a></li>
+    <li><a href="http://localhost:3000/index.html">Crear Incidencia</a></li>
+    <li><a href="http://localhost:3000/listarLeve.html">Incidencias Leves</a></li>
+    <li><a href="http://localhost:3000/listarGrave.html">Incidencias Graves</a></li>
+  </ul>
+
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Incidencias Alumnos</h1>
       <p class="lead">Detalles de Alumnos</p>
 
-
+      <a href="#enlace" class="efectos">Ir a Eliminar</a>
+      <br>
+      <br>
       <div class="container-fluid">
         <div id="divLista">
 
         </div>
         <br>
-        <a id="enlace" onclick="eliminar()">ELIMINAR</a>
+        <a href="#" class="efectos" id="enlace" onclick="eliminar()">ELIMINAR</a>
       </div>
 
 
