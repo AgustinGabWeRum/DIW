@@ -1,7 +1,7 @@
 var AuxID=location.search.substr(1).split("=")[1];
 var leve;
 var grave;
-$.getJSON( "http://localhost:3000/partes/"+AuxID, function( data ) {
+$.getJSON( "partes/"+AuxID, function( data ) {
   var items = [];
     $.each( data, function( key, val ) {
   console.log(key);
@@ -25,7 +25,7 @@ function eliminar(){
 
     $.ajax({
       type: "DELETE",
-      url: "http://localhost:3000/partes/"+AuxID,
+      url: "partes/"+AuxID,
       data: ""
     });
     cambiarPag();
@@ -34,9 +34,9 @@ function eliminar(){
 function cambiarPag(){
 
   if(grave == "grave"){
-    document.getElementById('enlace').href = "http://localhost:3000/listarGrave.html";
+    document.getElementById('enlace').href = "listarGrave.html";
   }else{
-    document.getElementById('enlace').href = "http://localhost:3000/listarLeve.html";
+    document.getElementById('enlace').href = "listarLeve.html";
   }
 }
   

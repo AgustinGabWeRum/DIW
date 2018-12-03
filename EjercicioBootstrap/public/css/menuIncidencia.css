@@ -1,14 +1,10 @@
 #hamburguesa{
     display: none;
 }
-.jumbotron{
-    background-color: #50D9FC;
-}
 #menu {
     padding: 0;
     position:absolute;
     position: fixed;
-    z-index: 20;
     top: 0;
     left: 0;
 }
@@ -34,18 +30,8 @@
 }
 #divLista li{
     background-color: #D1FCFD;
+    color: white;
 }
-#divLista li a{
-    color: black;
-}
-a.efectos{
-    width: 10%;
-    height: 15%;
-}
-a.efectos:link {text-decoration:none; color: #2175bc; background: white; border:#FFFFFF}
-a.efectos:visited {text-decoration:none; color: #2175bc}
-a.efectos:active {text-decoration:none; color:white; background: #2175bc; border:#FFFFFF}
-a.efectos:hover {text-decoration:underline; color: white; background: #2175bc; border:#FFFFFF}
 @media screen and (max-width: 420px){
   
     #menu{
@@ -54,6 +40,7 @@ a.efectos:hover {text-decoration:underline; color: white; background: #2175bc; b
     }
     #hamburguesa{
       display: block;
+      margin-left: -10px;
       width: 60px;
       height: auto;
     }
@@ -69,4 +56,4 @@ a.efectos:hover {text-decoration:underline; color: white; background: #2175bc; b
       background-color: #2175bc;
       color: #fff;
   }
-}     
+}   
