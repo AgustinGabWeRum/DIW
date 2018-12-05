@@ -1,6 +1,12 @@
 #hamburguesa{
     display: none;
 }
+#atras{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
 .jumbotron{
     background-color: #50D9FC;
 }

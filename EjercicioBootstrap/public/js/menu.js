@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", cargar);
 function cargar(){
 
    document.getElementById("hamburguesa").addEventListener('click', menuDesplegable);
+
 }
 function menuDesplegable(){
 
