@@ -67,8 +67,12 @@ img {
     text-align: left;
 }
 .Tipificacio{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: 660033;
+    border-radius: 7px;
     overflow: auto;
-    width: 800px;
+    width: 900px;
     max-height: 300px;
 }
 #botonGrave{

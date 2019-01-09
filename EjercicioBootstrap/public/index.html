@@ -20,7 +20,7 @@
 
 </head>
 
-<body onload="marcarLeve()">
+<body onload="marcarLeve(), fechaActual()">
 
     <div class="cajaPrincipal">
 
@@ -40,7 +40,7 @@
         <center>
             <h3>COMUNICACIÓ DE MESURES CORRECTORES</h3>
         </center>
-        <form method="POST" action="http://localhost:3000/partes">
+        <form method="POST" action="partes">
             <div class="fila1">
                 <label for="nombre">ALUMNE/A</label>
                 <input id="nombre" name="nom" autofocus="true" placeholder="Agustín" />
