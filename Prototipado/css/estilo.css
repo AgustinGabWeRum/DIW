@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 500px 50px;
+    grid-template-areas: 
+      "h h h h h h h h h h h h"
+      "m m g c c c c c c c t t"
+      "f f f f f f f f f f f f";
+}
+.header {
+    background-color: purple;
+    grid-area: h;
+    border-radius: 5px;
+}
+.menu {
+    background-color: burlywood;
+    grid-area: m;
+    border-radius: 5px;
+}
+.footer {
+    background-color: paleturquoise;
+    grid-area: f;
+    border-radius: 5px;
+}
+.imagenes{
+    grid-area: c;
+    float: right;
+    cursor: pointer;
+}
+.contador {
+    background-color: teal;
+    grid-area: t;
+    border-radius: 5px;
+}
+.menuGalletas{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 250px;
+    border-radius: 5px;
+}
+.contador input{
+    width: 99.5%;
+    height: 20%;
+    border-radius:5px;
+}
+.galletasContador{
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+}
+#titulo{
+    margin-top: -0.2px;
+    padding-left: 40%;
+    color: white;
+}

@@ -1,0 +1,70 @@
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 500px 150px;
+    grid-template-areas: 
+      "h h h h h h h h h h h h"
+      "p p g c c c c c c c m m"
+      "f f f f f f f f f f f f";
+}
+.header {
+    background-color: palegoldenrod;
+    grid-area: h;
+    border-radius: 5px;
+}
+.menu {
+    background-color: violet;
+    grid-area: m;
+    border-radius: 5px;
+}
+.footer {
+    background-color: salmon;
+    grid-area: f;
+    border-radius: 5px;
+}
+.imagenes{
+    grid-area: c;
+    float: right;
+    cursor: pointer;
+}
+.menuGalletas{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 250px;
+    border-radius: 5px;
+}
+.galletasContador{
+    width: 125px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+#titulo{
+    margin-top: -0.2px;
+    padding-left: 40%;
+    color: black;
+}
+.unidades{
+    float: left;
+}
+.unidades p{
+    text-align: right;
+}
+.numPedido{
+    display: grid;
+    grid-area: p;
+    background-color: hotpink;
+}
+#usuario{
+    width: 150px;
+    height: auto;
+    padding-left: 50px;
+}
+.numPedido p{
+    text-align: center;
+}
