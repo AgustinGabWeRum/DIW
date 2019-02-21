@@ -3,10 +3,8 @@
     <div class="contenedorRegistro">
 
         <div id="cabecera">
-            <br />
             <h3 style="text-align:center; color: white;">TU CUENTA PARA TODO LO</h3>
             <h3 style="text-align:center; color: white;"> RELACIONADO CON NIKE</h3>
-            <br />
         </div>
 
         <form id="datosRegistro" action="registrarse.php" method="POST" >
